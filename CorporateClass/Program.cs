@@ -33,6 +33,14 @@ namespace CorporateClass
                     StartDate = new DateTime(2020, 2, 3)
                 }
             );
+
+            poo.employees = Employees;
+
+            foreach (var empl in Employees)
+            {
+                Console.WriteLine(empl.Name);
+                Console.ReadLine();
+            }
         }
     }
 }
